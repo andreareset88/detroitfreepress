@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #ffffff;
+    min-height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    position: relative;
+}
+
+#first-menu li {
+    position: relative;
+    margin: 4px;
+    float: left;
+    min-height: 40px;
+    font-weight: bold;
+}
+
+#first-menu li a:link,
+#first-menu li a:visited {
+    color: gray;
+    text-decoration: none;
+    padding: 7px 7px 0 7px;
+    display: block;
+}
+
+#first-menu li a:hover {
+    font-size: 110%;
+}
+
+#first-menu li a.brand {
+    font-family: "Old English Text MT", Old English Text MT, sans-serif;
+    margin-right: 20px;
+    margin-left:50px;
+    font-size: 17px;
+}
+
+#first-menu li a.brand:hover {
+    text-decoration: none;
+    font-size: 100%;
+}
+
+#first-menu li a.subscribe {
+    color: black;
+    text-decoration: underline dodgerblue;
+}
+
+#first-menu li a.sign-in {
+    color: black;
+}
+
+.responsive-image {
+    max-width: 100%;
+}
+
+.main-body {
+    margin-left: 40px;
+    overflow: auto;
+}
+
+.item {
+    float: left;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.news {
+    text-decoration: none;
+    color: black;
+}
+
+.news:hover {
+    text-decoration: underline dodgerblue;
+}
+
+.item2 {
+    width: 60%;
+}
+
+h3:hover, h4:hover {
+    text-decoration: underline dodgerblue;
+}
+
+aside {
+    padding: 1%;
+    margin-right: 5%;
+}
+
+h5:hover {
+    text-decoration: underline dodgerblue;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+p.ambito {
+    font-size: small;
+    font-weight: bold;
+    color: gray;
+}
+
+span.ambito {
+    font-weight: normal;
+}
+
+.advertisement1 {
+    position: relative;
+    top: 50px;
+    border-top: 1px solid gray;
+    width: 95%;
+    height: 200px;
+    background-color: darkgray;
+    text-align: center;
+    float: bottom;
+    margin-left: 40px;
+}
+
+.img-adv1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.advertisement2 {
+    position: relative;
+    top: 50px;
+    border-top: 1px solid gray;
+    margin-top: 10px;
+    width: 25%;
+    height: 500px;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    text-align: center;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 40px;
+}
+
+.img-adv2 {
+    position: absolute;
+    top: 20%;
+    left: 55px;
+}
+
+.secondary-news {
+    position: relative;
+    min-height: 50px;
+    left: 500px;
+    text-align: left;
+    float: left;
+}
+
+
+
+#second-menu {
+    float: left;
+}
+
+#second-menu li {
+    min-height: 40px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    color: black;
+}
+
+#second-menu li a:link,
+#second-menu li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+#second-menu li a:hover {
+    text-decoration: underline dodgerblue;
+}
+
+.secondary-news-images {
+    position: relative;
+    left: 750px;
+    top: -450px;
+}
+
+#second-menu-images li {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    padding-top: 80px;
+}
+
+#last-menu li {
+    float: left;
+    margin: 12px;
+}
+
+#last-menu li a:link,
+#last-menu li a:visited {
+    text-decoration: none;
+}
+
+#last-menu li a.cookies {
+    color: black;
+    font-weight: bold;
+}
+
+#last-menu li a.last-menu-font {
+    color: gray;
+}
+
+@media screen and (max-width: 450px){
+    .responsive-image {
+        display: none;
+    }
+
+    .main-body p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+
+    #other-news li {
+        display: none;
+    }
+
+    .item {
+        width: 100%;
+    }
+
+    .item2 {
+        position: relative;
+        right: 0;
+    }
+
+    #first-menu li a.lista {
+        display: none;
+    }
+
+    .secondary-news-images {
+        display: none;
+    }
+
+    .img-adv2,
+    .img-adv1{
+        display: none;
+    }
+
+    .responsive-image {
+
+    }
+
+}
+
