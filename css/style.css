@@ -53,7 +53,6 @@ body {
 
 #first-menu li a.brand:hover {
     text-decoration: none;
-    font-size: 100%;
 }
 
 #first-menu li a.subscribe {
@@ -226,6 +225,10 @@ footer {
     color: gray;
 }
 
+.copyright {
+
+}
+
 @media screen and (max-width: 450px){
     .responsive-image {
         display: none;
@@ -264,8 +267,11 @@ footer {
         display: none;
     }
 
-    .responsive-image {
-
+    @media screen and (max-width: 860px) {
+        #second-menu li a.story,
+        #second-menu li p.ambito {
+            display: none;
+        }
     }
 
 }
